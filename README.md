@@ -1,5 +1,17 @@
 # Turborepo starter
 
+```css
+vd-selfie::part(capture_close_button_button) { 
+  position: absolute; 
+  top: calc(var(--main-sdk-height) * 0.02);
+  right: calc(var(--main-sdk-height) * 0.02);
+  width: calc(var(--main-sdk-width) * 0.079);
+  fill: var(--color-neutral00);
+  cursor: pointer;
+  border: 5px solid #b91b1b;
+} 
+```
+
 This is an official npm starter turborepo.
 
 ## What's inside?
